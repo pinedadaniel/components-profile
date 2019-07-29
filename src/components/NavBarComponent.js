@@ -7,11 +7,15 @@ class NavBar extends React.Component{
         return (
             <div className="Navbar">
                 <div className="container-fluid">
+                    <div className='row-fluid'> 
+                    <div className='col-sm-12'> 
                     <a className="Navbar__brand" href="/">
                         <img className="Navbar__brand-logo" src={logo} alt="Logo" />
                         <h4 className="font-weight-light">Conferencia</h4>
                         <h4 className="font-weight-bold">Geek</h4>
                     </a> 
+                    </div>
+                    </div>
                 </div>
             </div>
         );

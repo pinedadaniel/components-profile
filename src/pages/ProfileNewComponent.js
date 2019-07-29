@@ -1,8 +1,10 @@
 import React from 'react';
 import Profile from '../components/ProfileComponent';
 import NavBar from '../components/NavBarComponent';
-import ProfileForm from '../components/ProfileFormComponent'
+import ProfileForm from '../components/ProfileFormComponent';
 import '../styles/ProfileNewStyle.css';
+
+
 
 class ProfileNew extends React.Component {
     render() {
